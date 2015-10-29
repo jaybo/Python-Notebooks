@@ -17,8 +17,10 @@ class Sensor():
 
 sensors = [
     #                                 pixels     areaInSqMeters  FF    QE    Well
-    Sensor('FTF2021M',              2032 * 2044, .0243 * .0245, 0.94, 0.50, 250000),
+    Sensor('FTF2021M, Dalsa',       2032 * 2044, .0243 * .0245, 0.94, 0.50, 250000),
     Sensor('CMOSIS 20000',          5120 * 3840, .0328 * .0246, 0.94, 0.45,  15000),
+    Sensor('OnSemi KAI-16000 CCD',  4872 * 3248, .0361 * .0240, 0.94, 0.45,  30000),
+    Sensor('OnSemi KAI-29050 CCD',  6576 * 4384, .0361 * .0240, 0.94, 0.43,  20000),
     Sensor('OnSemi NOIV1SN025KA',   5120 * 5120, .035  * .035 , 0.94, 0.50,  22000),
     Sensor('Canon EOS 7D Mark II',  5472 * 3648, .022  * .015 , 0.94, 0.59,  29544), 
     Sensor('Canon EOS 5DS',         8688 * 5792, .0359 * .024 , 0.94, 0.50,  32498), 
